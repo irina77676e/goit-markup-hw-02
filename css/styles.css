@@ -77,15 +77,15 @@ cursor: pointer;
     text-transform: uppercase;
     color: var(--link-color);
 }
+
 .header-btn{
-    background: var(--accent-color);
+    background-color: var(--accent-color);
     font-family:inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.06em;
     color: var(--link-color);
-    cursor:pointer
 }
 /* ABOUT */
 .visually-hidden {
@@ -95,7 +95,6 @@ cursor: pointer;
     margin: -1px;
     border: 0;
     padding: 0;
-
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
@@ -176,10 +175,13 @@ line-height: calc(24/14);
 letter-spacing: 0.03em;
 color: var(--description-color)
 }
-
+.footer-address{
+font-style: normal;
+}
 /* PORTFOLIO */
 .portfolio-btn{
-    background-color: ;
+    background-color: #F5F4FA;
+    font-family:'Roboto',sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: calc(26/16);

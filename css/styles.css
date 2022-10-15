@@ -19,10 +19,14 @@ body {
     background-color: var(--link-color);
     font-family: 'Roboto', sans-serif;
 }
-.btn:hover, .btn:focus{
-background-color: var(--accent-color);
-color: var(--link-color);
-cursor: pointer;
+.button{
+    color: var(--link-color) ;
+    background-color: var(--accent-color)
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+.button:hover, .button:focus{
+    background-color: var(--accent-color)
 }
 /* HEADER */
 .logo{
@@ -77,15 +81,14 @@ cursor: pointer;
     text-transform: uppercase;
     color: var(--link-color);
 }
-
-.header-btn{
+.btn-primary{
     background-color: var(--accent-color);
-    font-family:inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
+    padding: 10px 32px;
+    border-radius: 4px;
     letter-spacing: 0.06em;
-    color: var(--link-color);
 }
 /* ABOUT */
 .visually-hidden {
@@ -179,15 +182,16 @@ color: var(--description-color)
 font-style: normal;
 }
 /* PORTFOLIO */
-.portfolio-btn{
-    background-color: #F5F4FA;
-    font-family:'Roboto',sans-serif;
+.btn-secondary{
+    background-color:#F5F4FA;
+    color: var(--main-color);
     font-weight: 500;
     font-size: 16px;
-    line-height: calc(26/16);
+    line-height: 26px;
+    padding: 6px 22px;
     letter-spacing: 0.03em;
-    color: var(--main-color);
-}
+    border-radius: 4px;
+    }
 .portfolio-item{
     font-weight: 700;
     font-size: 18px;
